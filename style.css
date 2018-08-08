@@ -6,7 +6,6 @@ body, html {
 body {
     color: #ce9090;
     font-family: 'Gloria Hallelujah', cursive;
-    text-align: center;
     background-color: black;
 }
 
@@ -16,6 +15,12 @@ header.startup {
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+
+hr {
+    max-width: 200px;
+    border-width: 2px;
+    border-color: blue;
 }
 
 header.startup h1 {
@@ -33,12 +38,16 @@ header.startup hr {
     border-radius: 300px;
     font-family: 'Gloria Hallelujah', sans-serif;
     transition: 1s;
-  }
+}
+
+.btn-xl {
+    padding: 1rem, 2rem;
+}
 
 .btn:hover {
-    color:white;
-    background-color: black;
+    color:yellowgreen;
+    background-color: rgb(92, 86, 86);
     transform: scale(2.4);
-    border: 2px black;
+    border: 2px rgb(63, 57, 57);
     border-width: 5px;
 }
